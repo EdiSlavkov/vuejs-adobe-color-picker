@@ -1,46 +1,24 @@
-# adobe-color
+## First VueJS Project - Adobe Color Picker
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is my first venture into Vue.js development and is inspired by the Adobe Color Picker landing page. While it is primarily a copy of the Adobe Color Picker landing page, I have added some functionality to make it more interactive. The main purpose of this project is to practice Vue.js development.
 
-## Recommended IDE Setup
+### Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Draggable Plates**: You can drag and rearrange color plates to customize your palette.
+- **Color Wheel**: I used the iro library to implement a color wheel for selecting and customizing colors.
+- **Mobile-Friendly**: The project includes media queries for a mobile view, ensuring a responsive user experience.
 
-## Type Support for `.vue` Imports in TS
+### Getting Started
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+To run this project locally and explore its features, follow these steps:
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+# 1. **Clone the repository**:
+   git clone https://github.com/EdiSlavkov/vuejs-adobe-color-picker.git
+   
+# 2. Install the required dependencies:
+cd vuejs-adobe-color-picker
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# 3. Start the development server:
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
