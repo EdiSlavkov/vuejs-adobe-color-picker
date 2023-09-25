@@ -1,0 +1,20 @@
+@import '../../assets/variables';
+
+.slider-card-container,
+.sliders-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-card-container {
+    flex-grow: 1;
+
+    span {
+        border-bottom: 1px solid $menu-item-text-color;
+        font-size: 0.75rem;
+    }
+}
+
+.sliders-container {
+    flex: 1 1 auto;
+}

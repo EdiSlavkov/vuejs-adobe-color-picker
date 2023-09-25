@@ -1,0 +1,11 @@
+.horizontal-plates-container {
+    display: flex;
+    min-height: 100px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .horizontal-plates-container {
+        flex-direction: column;
+    }
+}

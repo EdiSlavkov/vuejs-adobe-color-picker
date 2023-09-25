@@ -1,0 +1,39 @@
+@import '../../assets/variables';
+
+.tools-list {
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+    height: 100%;
+    margin-top: 1.35rem;
+    list-style: none;
+    border-bottom: 1px solid #eaeaea;
+
+    li {
+        padding-bottom: 0.8rem;
+        font-size: 0.87rem;
+        font-weight: 400;
+        user-select: none;
+        cursor: pointer;
+        color: $menu-item-text-color;
+
+        &:hover {
+            color: #000000;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .tools-list {
+        flex-direction: column;
+        margin-top: 2.35rem;
+        align-items: center;
+        border-bottom: none;
+
+        li {
+            width: 100%;
+            border-bottom: 1px solid #eaeaea;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.draggable-plate {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1 1 100%;
+}
+
+.arrow {
+    rotate: 270deg;
+    color: #ffffff;
+    animation: moveAnimation 1.5s infinite;
+}
+
+.arrow-background {
+    display: flex;
+    justify-content: center;
+    background: #00000041;
+    animation: widthAnimation 0.5s ease-in-out forwards;
+}
+
+@keyframes widthAnimation {
+    0% {
+        width: 5%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes moveAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

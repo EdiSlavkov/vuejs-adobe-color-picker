@@ -1,0 +1,11 @@
+.save-panel {
+    display: flex;
+    flex: 1 1 10%;
+    margin-top: 5rem;
+}
+
+@media (max-width: 768px) {
+    .save-panel {
+        display: none;
+    }
+}

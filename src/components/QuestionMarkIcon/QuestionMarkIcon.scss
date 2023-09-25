@@ -1,0 +1,13 @@
+@import '../../assets/variables';
+
+.question-mark-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    height: 10px;
+    padding: 0.06rem;
+    border: 1px solid $menu-item-text-color;
+    border-radius: 50%;
+    font-size: 0.7rem;
+}
